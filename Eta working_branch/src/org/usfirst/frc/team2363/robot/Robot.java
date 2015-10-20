@@ -87,7 +87,7 @@ public class Robot extends IterativeRobot {
 	 * used for any initialization code.
 	 */
 	public void robotInit() {
-		autoSelector.addDefault("None", new NoneCommand());
+/* BB		autoSelector.addDefault("None", new NoneCommand());
 		autoSelector.addObject("Three Tote Stack", new TotesAndCansCommandKnockOver());
 		autoSelector.addObject("Three Tote, No Knock Over", new TotesAndCansCommand());
 		autoSelector.addObject("Two cans + totes, HP Station", new TwoCanTwoTotesEject());
@@ -99,6 +99,7 @@ public class Robot extends IterativeRobot {
 		autoSelector.addObject("Two Totes and a bird NO VISION", new TwoTotesAndABird());
 //		visionProcessor.start();
 		SmartDashboard.putData("Auto Mode", autoSelector);
+*/
 	}
 
 	public void disabledPeriodic() {
